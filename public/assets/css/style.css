@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color:#eceee5;
+}
+
+h2,h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #eceee5;
+}
+
+.col-md-6 {
+    margin-left: -5%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    max-width: 80%;
+    color: #eceee5;
+
+}
+
+.build {
+    background-image: url(/assets/images/burgertable.jpg);
+    background-size: 100%;
+    max-width: 100%;
+    padding: 10%;
+    margin-top: 3%;
+    border-radius: 8px;
+    opacity: .7;
+}
+
+.eat, .devoured {
+    background: #2b2b2b;
+    padding: 5%;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+
+.devoured {
+    margin-bottom: 10%;
+}
+
+.background, .btn, .form-control {
+    background: #eceee5;
+}
+
+footer, header {
+    background: #2b2b2b;
+}
+
+.list-group-item {
+    background: #64625d;
+}

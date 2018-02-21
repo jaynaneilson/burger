@@ -1,31 +1,36 @@
-<div>
-		<img src="/assets/images/Burgers.jpg" alt="burgerhouse" class="img-responsive center-block">
-	</div>
+<header>
+	<img src="/assets/images/Burgers.jpg" alt="burgers" class="img-responsive center-block">
+	</header>
+
+	<div class="background">
 
 <div class="container">
 
-	
-
+	<div class="build">
 	<div class="row">
 
-    <div class="col-md-10 col-md-offset-1">
-		<p class="lead">Build the Burger of your Dreams!</p>
+    <div class="col-md-6">
+
+		<h2 class="font-weight-bold lead">Let's build the Burger of your Dreams!</h2>
 		
 		<form class="create-update-form" action="/burgers/create" method="POST">
 		 <div class="form-group">
-		 	<textarea class="form-control input-lg" type="text" name="burger_name" row="3"></textarea>
+		 	<textarea class="form-control" type="text" name="burger_name" row="3"></textarea>
 		 </div>
 		 <button class="btn btn-default btn-lg" type="submit">Submit</button>
 		</form>
 	</div>
+	</div>
 
 </div>
 
+<div class="eat">
 <div class="row">
 
 	<div class="col-md-10 col-md-offset-1">
 	 <div class="panel-panel default">
-	 	<h1>Eat Me</h1>
+	 	<h1>~ EAT ME ~</h1>
+		 <hr>
 	 	<ul class="list-group">
 	 		{{#each burgers}}
 	 		 {{#unless this.devoured}}
@@ -48,11 +53,13 @@
 	 </div>
 	</div>
 </div>
+</div>
 
-	
+	<div class="devoured">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-			<h1>Devoured</h1>
+			<h1>~ DEVOURED ~</h1>
+			<hr>
 			<div class="panel panel-default">
 				<ul class="list-group">
 					{{#each burgers}}
@@ -67,3 +74,12 @@
 		</div>
 	</div>
 </div>
+</div>
+</div>
+
+<footer class="footer navbar-fixed-bottom">
+            <div class="container">
+              <h6 class="text-center">&copy; Jayna Neilson 2018<h6>
+            </div>
+          </footer>
+        </div>
