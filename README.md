@@ -1,4 +1,4 @@
-# :hamburger: Burger Build :sparkles:
+# :hamburger: Burger Builder :sparkles:
 
 Burger Builder is an app where you can log the burgers you build with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
 ## Demo

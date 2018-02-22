@@ -3,7 +3,7 @@ h1 {
     color:#eceee5;
 }
 
-h2,h6 {
+h2, h6 {
     font-family: 'Raleway', sans-serif;
     color: #eceee5;
 }
@@ -48,6 +48,12 @@ footer, header {
     background: #2b2b2b;
 }
 
+.img-responsive {
+   max-width: 90%; 
+   padding: 5% 0% 5% 0%;
+}
+
 .list-group-item {
     background: #64625d;
+
 }
